@@ -35,50 +35,44 @@
         <!-- Image -->
         <section>
             <h2>Favorite Activity</h2>
-            <img src="images/ANA_soldier_with_RPG-7_in_2013.jpg" alt="YEAH!!!">
+            <img src="images/YOUR_IMAGE.jpg" alt="YEAH!!!" style="max-width: 80%; display: block; margin: auto;">
         </section>
 
         <!-- YouTube Video -->
         <section>
             <h2>God Bless EDM</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=YJVmu6yttiw&ab_channel=Skrillex" frameborder="0" allowfullscreen></iframe>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/watch?v=pM8pG70Iqjw&ab_channel=YNGMartyr" 
+                frameborder="0" 
+                allowfullscreen 
+                style="display: block; margin: auto;">
+            </iframe>
         </section>
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Guessing Game</title>
-            <link rel="stylesheet" href="style.css"> <!-- Link to your Scratch Page CSS -->
-        </head>
-        <body>
-            <header>
-                <h1>Number Guessing Game</h1>
-                <p>Guess the number between 1 and 100!</p>
-            </header>
-            <section>
-                <div>
-                    <input type="number" id="guessInput" placeholder="Enter your guess">
-                    <button onclick="checkGuess()">Submit Guess</button>
-                </div>
-                <p id="resultMessage"></p>
-            </section>
-        
-            <script src="game.js"></script> <!-- Link to JavaScript -->
-        </body>
-        </html>
-        <!-- Anchor Link -->
+
+        <!-- Number Guessing Game -->
+        <section style="background-color: #f4f4f4; padding: 20px; margin: 20px auto; text-align: center;">
+            <h2>Number Guessing Game</h2>
+            <p>Guess the number between 1 and 100!</p>
+            <input type="number" id="guessInput" placeholder="Enter your guess">
+            <button onclick="checkGuess()">Submit Guess</button>
+            <button onclick="resetGame()">Reset Game</button>
+            <p id="resultMessage"></p>
+        </section>
+
+        <!-- Navigation -->
         <section>
             <h2>Navigation</h2>
             <p><a href="#bottom">See My Contact Info</a></p>
         </section>
 
-        <!-- Divs for Styling -->
+        <!-- Styled Sections -->
         <section>
             <h2>Styled Sections</h2>
             <div class="box box1">Div 1: Running is a great way to stay fit and relieve stress!</div>
-<div class="box box2">Div 2: Weightlifting helps build both strength and discipline.</div>
-<div class="box box3">Div 3: Podcasts are my favorite way to learn and stay inspired. #Blessupfam </div>
+            <div class="box box2">Div 2: Weightlifting helps build both strength and discipline.</div>
+            <div class="box box3">Div 3: Podcasts are my favorite way to learn and stay inspired. #Blessupfam</div>
         </section>
 
         <!-- Anchor Target -->
@@ -86,5 +80,8 @@
             <p>You've reached the bottom of the page. Nice. God bless!</p>
             <a href="index.html">Return to Professional Page</a>
         </footer>
+
+        <!-- Game Script -->
+        <script src="game.js"></script>
     </body>
 </html>
