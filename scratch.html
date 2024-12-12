@@ -1,37 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scratch Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>My Hobby</h1>
-    <ul>
-        <li>Things I like:
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scratch Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <h1>Welcome to My Scratch Page</h1>
+            <p>This page is a demonstration of custom HTML and CSS.</p>
+        </header>
+
+        <!-- Ordered and Unordered List -->
+        <section>
+            <h2>My Hobbies</h2>
             <ol>
-                <li>Pizza</li>
-                <li>Movies</li>
-            </ol>
-        </li>
-    </ul>
-    <img src="https://via.placeholder.com/150" alt="Example Image">
-    <h2>Watch this video</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    <p><a href="#bottom">Go to bottom of page</a></p>
-    <div>
-        <h3>Section 1</h3>
-        <p>Some text here.</p>
-    </div>
-    <div>
-        <h3>Section 2</h3>
-        <p>More text here.</p>
-    </div>
-    <div>
-        <h3>Section 3</h3>
-        <p>Even more text here.</p>
-    </div>
-    <p id="bottom">You reached the bottom!</p>
-</body>
+              <li>Fitness
+                  <ul>
+                      <li>Running</li>
+                      <li>Weightlifting</li>
+                  </ul>
+              </li>
+              <li>Personal Development
+                  <ul>
+                      <li>Reading Books</li>
+                      <li>Listening to Podcasts</li>
+                  </ul>
+              </li>
+          </ol>
+        </section>
+
+        <!-- Image -->
+        <section>
+            <h2>Favorite Activity</h2>
+            <img src="/Users/stevenlafrance/Documents/WebProject/Images/ANA_soldier_with_RPG-7_in_2013-cropped_(cropped_2).jpg" alt="YEAH!!!">
+        </section>
+
+        <!-- YouTube Video -->
+        <section>
+            <h2>God Bless EDM</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=YJVmu6yttiw&ab_channel=Skrillex" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <!-- Anchor Link -->
+        <section>
+            <h2>Navigation</h2>
+            <p><a href="#bottom">See My Contact Info</a></p>
+        </section>
+
+        <!-- Divs for Styling -->
+        <section>
+            <h2>Styled Sections</h2>
+            <div class="box box1">Div 1: Custom Style</div>
+            <div class="box box2">Div 2: Custom Style</div>
+            <div class="box box3">Div 3: Custom Style</div>
+        </section>
+
+        <!-- Anchor Target -->
+        <footer id="bottom">
+            <p>You've reached the bottom of the page. Nice. God bless!</p>
+            <a href="index.html">Return to Professional Page</a>
+        </footer>
+    </body>
 </html>
